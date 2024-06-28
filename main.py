@@ -11,6 +11,10 @@ def main():
     ########################################
     """
 
+    for i in range(2,N):
+        a3 = result[i-1] + result[i-2]
+        result.append(a3)
+ 
     ########################################
     # Do not delete the return statement
     ########################################
